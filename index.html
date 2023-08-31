@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <title>Education School</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="assets/logo.png" alt="img">
+            <div class="nav-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#profile">Our Profile</a></li>
+                <li><a href="#fasilitas">Our Fasilitation</a></li>
+                <li><a href="#">Message Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="section-content">
+            <h2>Hi, <span class="title-profile">Della Jannata Febiana</span></h2>
+            <h2>Selamat Datang di Education School</h2>
+        </div>
+    </section>
+
+    <section class="profile-link" id="profile">
+        <div class="section-image2">
+            <img src="assets/content.png" alt="img">
+        </div>
+        <div class="section-content2">
+            <h2 class="title-profile">Education <span>School</span></h2>
+            <p class="section-content3">Education School adalah istilah yang merujuk kepada sekolah atau lembaga
+                pendidikan yang khusus berfokus pada pendidikan dan pelatihan dalam konteks akademik atau kurikulum
+                tertentu. Ini bisa mencakup berbagai jenis lembaga pendidikan, seperti sekolah dasar, sekolah menengah,
+                perguruan tinggi, universitas, institusi pelatihan, dan banyak lainnya.</p>
+            <button class="btn">Selengkapnya</button>
+        </div>
+    </section>
+
+    <section class="profile-link1" id="fasilitas">
+        <p class="fasilitas-judul">Fasilitas Kami</p>
+        <div class="profile-link2">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/class.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Ruang Kelas</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; ">
+                <img src="assets/gazebo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Gazebo</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/library.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Perpustakaan</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/uks.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Ruang UKS</p>
+                </div>
+            </div>
+        </div>
+        <div class="profile-link2">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/lab.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Lab Asisten</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; ">
+                <img src="assets/computer.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Lab Computer</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/auditorium.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Auditorium</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/lap.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Lapangan Olahraga</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="visi-misi">
+        <div class="visi">
+            <h2>Visi</h2>
+            <ol>Terwujudnya pembelajar sepanjang hayat yang berakhlak mulia, berprestasi, terampil, dan berwawasan
+                lingkungan</ol>
+        </div>
+        <div class="misi">
+            <h2>Misi</h2>
+            <ol>
+                <li>Menerapkan pembelajaran yang menyenangkan dan bermakna yang mampu memotivasi peserta didik untuk
+                    selalu
+                    belajar dan menemukan pembelajaran.</li>
+                <li>Meningkatkan akhlak mulia peserta didik melalui kegiatan intrakurikuler, kokurikuler, dan ekstra
+                    kurikuker yang berakar pada agama, budaya, norma susila, dan tata krama yang berlaku di masyarakat.
+                </li>
+                <li>Meningkatkan prestasi belajar peserta didik pada dimensi sikap, pengetahuan, dan keterampilan
+                    melalui
+                    kegiatan pembelajaran yang bermakna.</li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="message">
+        <form class="forms-sample" name="form" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="nama">Nama</label>
+                <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama Anda">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Masukkan Email Anda">
+            </div>
+            <div class="form-group">
+                <label for="telp">No.Telp</label>
+                <input type="telp" class="form-control" id="telp" placeholder="Masukkan No.Telp Anda">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" placeholder="Masukkan Pesan Anda"></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Submit</button>
+        </form>
+        <div class="show">
+            <p>Nama: <span id="nama-show"></span></p>
+            <p>Email: <span id="email-show"></span></p>
+            <p>No.Telp: <span id="telp-show"></span></p>
+            <p>Pesan: <span id="message-show"></span></p>
+        </div>
+    </section>
+
+    <footer>
+        <p class="footerTittle">Education School &#169; 2023</p>
+        <p class="footername"><a>by Della Jannata Febiana</a></p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
